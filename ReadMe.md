@@ -4,6 +4,10 @@ This package contains the implemetation of a `ValueArray`, which is an immutable
 
 `ValueArray`s are the perfect fit if your DDD value-objects need to contain a collection of objects and you do not want to care about equality and immutability. This makes modeling ValueObjects with C# `record`s a breeze.
 
+## Installation
+1. Get a compiled package from Nuget at: [https://www.nuget.org/packages/ValueArrays/](https://www.nuget.org/packages/ValueArrays/).
+2. Import the namespace `ValueArrays` and you are ready to go!
+
 ## Usage
 ```csharp
 var array = new ValueArray<string>(new[] { "one", "two", "three" });
@@ -56,4 +60,4 @@ line1.GetHashCode() == line2.GetHashCode(); // true
  ```
 
 ----
-(c) 2021 TillW -- [https://github.com/x789/ValueArrays](https://github.com/x789/ValueArrays)
+(c) 2021 TillW -- [Visit on Nuget](https://www.nuget.org/packages/ValueArrays/) -- [Visit on GitHub](https://github.com/x789/ValueArrays)
