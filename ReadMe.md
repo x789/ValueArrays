@@ -52,6 +52,7 @@ data[1] = 4;
 va[1] == 2; // true
 
 // They can safely be used to model value-objects as records, since they fit into the built-in Equals() and GetHashCode().
+// Assume that 'Line' is defined as: 'record Line(ValueArray<string> points) {}'
 var line1 = new Line(array);
 var line2 = new Line(copy);
 line1.Equals(line2); // true
