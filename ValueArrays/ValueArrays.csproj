@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Authors>x789</Authors>
+    <Description>This package contains the implemetation of a ValueArray, which is an immutable (read-only) container whose equality is determined based on its content. That means, two ValueArrays with the same items in the same order are equal.
+
+ValueArrays are the perfect fit if your DDD value-objects need to contain a collection of objects and you do not want to care about equality and immutability. This makes modeling ValueObjects with C#-records a breeze.</Description>
+    <Copyright>(c) 2021 TillW</Copyright>
+    <PackageTags>ddd; value-object; container; immutable; read-only;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <WarningLevel>5</WarningLevel>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <PackageProjectUrl>https://www.github.com/x789/ValueArrays/</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
